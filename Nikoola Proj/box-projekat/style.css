@@ -1,0 +1,45 @@
+.pregled-tak-wrapper{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 80px 40px;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.pregled-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+padding: 50px;
+}
+.page-wrapper{
+    padding: 100px 20% 0;
+}
+
+.main-btn{
+    padding: 20px;
+    background-color: grey;
+    color: black;
+}
+.main-btn:hover{
+    background: black;
+    color: grey;
+}
+
+.tak{
+    width: 30%;
+    border-style: solid;
+    padding: 0 0px 10px 10px;
+}
+.tak-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
